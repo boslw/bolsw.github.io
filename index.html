@@ -2,23 +2,57 @@
 <html>
 
 <head>
-  <link rel="stylesheet" type="text/css" href="https://csdnimg.cn/release/blogv2/dist/pc/themesSkin/skin-1024/skin-1024-ecd36efea2.min.css">
+
   <meta charset="utf-8" />
   <title>I love You</title>
-
   <style>
-    #ima
-{
-	position:fixed;
-	top:30px;
-	right:5px;
-}
+    body {
+      background: url("img/bg.gif") repeat #0a0a0a
+    }
+
+    body header {
+      background: url("img/bg.gif") no-repeat center;
+      background-size: 1920px auto
+    }
+
+    body header .container {
+      height: 100px
+    }
+
+    body div.title-box .title-blog a {
+      color: #e2e2e2 !important
+    }
+
+    body div.title-box .title-blog a:hover {
+      color: #fff !important
+    }
+
+    body div.title-box .description {
+      color: #c5c5c5 !important
+    }
+
+    aside div.aside-box h3.aside-title {
+      background: url("img/bg.gif") no-repeat center;
+      background-size: 300px 38px;
+      color: #3d3d3d;
+      padding: 0 16px;
+      height: 38px;
+      line-height: 38px
+    }
+  </style>
+  <style>
+    #ima {
+      position: fixed;
+      top: 30px;
+      right: 5px;
+    }
+
     html,
     body {
       height: 100%;
       padding: 0;
       margin: 0;
-      background: #000;
+      /* background: #000; */
     }
 
     canvas {
@@ -147,7 +181,9 @@
 <body>
   <!-- <img class="ima"src="./img/yh.gif"> -->
   <canvas id="pinkboard"></canvas>
-  <div id="name"><p>冯榕嵘我喜欢你,做我女朋友好吗?</p></div>
+  <div id="name">
+    <p>冯榕嵘我喜欢你,做我女朋友好吗?</p>
+  </div>
   <div class="mark">
 
   </div>
